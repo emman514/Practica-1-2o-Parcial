@@ -15,54 +15,61 @@ precios.sort()  # Se ordena la lista de precios en orden ascendente
 
 print(precios)  # Se imprime la lista ordenada
 
-# Práctica 2 y 3: Crear una lista de asignaturas y un mensaje
+#practica 2 y 3 y 4
 
-w = ["matematicas"]  # Lista que contiene la asignatura de matemáticas
+print("")
 
-e = ["humanidades"]  # Lista que contiene la asignatura de humanidades
+print("Castruita Soto Emmanuel")
 
-r = ["ingles"]  # Lista que contiene la asignatura de inglés
+print("")
 
-t = ["programacion "]  # Lista que contiene la asignatura de programación
+lista=[]
 
-y = ["metodologia"]  # Lista que contiene la asignatura de metodología
+u="estoy cursando"
 
-u = ["estoy cursando"]  # Lista que contiene un mensaje sobre el curso
+lista.append(u) 
 
-# Se crea una nueva lista combinando los elementos de las listas anteriores
+w="matematicas"
 
-o = (u + w + u + e + u + r + u + t + u)
+lista.append(w) 
 
-print(o)  # Se imprime la lista combinada
+a = int(input('ingresa calificasion de mate '))
 
-#Práctica 4: Solicitar calificaciones del usuario
+lista.append(a) 
 
-print("")  # Imprime una línea en blanco
+e="humanidades"
 
-print("castruita soto emmanuel")  # Imprime un nombre
+lista.append(e) 
 
-print("")  # Imprime otra línea en blanco
+c = int(input("ingresa calificacion de humanidades"))
 
-a = int(input('ingresa calificacion de mate '))  # Se solicita y almacena la calificación de matemáticas
+lista.append(c) 
 
-b = int(input("ingresa calificacion de ingles"))  # Se solicita y almacena la calificación de inglés
+r="ingles"
 
-c = int(input("ingresa calificacion de humanidades"))  # Se solicita y almacena la calificación de humanidades
+lista.append(r) 
 
-d = int(input("ingresa calificacion de metodologia"))  # Se solicita y almacena la calificación de metodología
+b = int(input("ingresa calificacion de ingles"))
 
-e = int(input("ingresa calificacion de programacion"))  # Se solicita y almacena la calificación de programación
-#Se imprimen las calificaciones ingresadas por el usuario
+lista.append(b ) 
 
-print("tu calificacion de mates es", a)
+t="programacion "
 
-print("tu calificacion de ingles es", b)
+lista.append(t) 
 
-print("tu calificacion de metodologia es", c)
+e = int(input("ingresa calificacion de programacion"))
 
-print("tu calificacion de humanidades es", d)
+lista.append(e) 
 
-print("tu calificacion de programacion es", e)
+y="metodologia"
+
+lista.append(y) 
+
+d = int(input("ingresa calificacion de metodologia"))
+
+lista.append(d) 
+
+print(lista)
 
 #Práctica 5: Ingresar números ganadores de la lotería y ordenarlos
 
@@ -109,22 +116,15 @@ EJECUCION
 ![image](https://github.com/user-attachments/assets/480a2ab0-28dd-42d8-ad60-02915e060a01)
 
 
-CODIGO 2 Y 3 JUNTOS PORQUE NO ENTENDI PARA ACERLO SEPARADO
+CODIGO 2 Y 3 Y 4 JUNTOS PORQUE NO ENTENDI PARA ACERLO SEPARADO
 
-![image](https://github.com/user-attachments/assets/fe9a438c-803e-4f9f-b0c7-f6e54daa1dbe)
+![image](https://github.com/user-attachments/assets/9212deec-38fb-429a-9d35-b10ea8167556)
+
 
 EJECUCION
 
-![image](https://github.com/user-attachments/assets/4d41fc02-3495-4f98-9b6f-1cadc519cc9d)
+![image](https://github.com/user-attachments/assets/8c5cbd9d-58e6-48a5-9ba0-7cad9d29baac)
 
-
-CODIGO 4
-
-![image](https://github.com/user-attachments/assets/24145b7f-6e9c-468c-a5a9-0fdfd0a76bca)
-
-EJECUCION
-
-![image](https://github.com/user-attachments/assets/132f51fd-7657-4827-aa32-59299b83ff0d)
 
 CODIGO 5
 
